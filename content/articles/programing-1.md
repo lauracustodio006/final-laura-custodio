@@ -4,7 +4,6 @@ description: ""
 omit_header_text: true
 summary: "Programming article 1."
 type: page
-weight: 2
 tags: [javascrips, problem]
 ---
 ## Introduction to the Problem

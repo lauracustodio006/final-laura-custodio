@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>, chapter  Eloquent Javascripte | My New Hugo Site</title>
+    <title>Minimum, chapter 3 Eloquent JavaScript | My New Hugo Site</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="Programming article 2.">
     <meta name="generator" content="Hugo 0.148.2">
@@ -37,19 +37,20 @@
 
     <meta property="og:url" content="http://localhost:1313/articles/programing-2/">
   <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content=", chapter  Eloquent Javascripte">
+  <meta property="og:title" content="Minimum, chapter 3 Eloquent JavaScript">
   <meta property="og:description" content="Programming article 2.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="articles">
-    <meta property="article:tag" content="Javascrips">
+    <meta property="article:tag" content="JavaScript">
     <meta property="article:tag" content="Problem">
 
-  <meta itemprop="name" content=", chapter  Eloquent Javascripte">
+  <meta itemprop="name" content="Minimum, chapter 3 Eloquent JavaScript">
   <meta itemprop="description" content="Programming article 2.">
-  <meta itemprop="keywords" content="Javascrips,Problem">
+  <meta itemprop="wordCount" content="367">
+  <meta itemprop="keywords" content="JavaScript,Problem">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content=", chapter  Eloquent Javascripte">
+  <meta name="twitter:title" content="Minimum, chapter 3 Eloquent JavaScript">
   <meta name="twitter:description" content="Programming article 2.">
 
 	
@@ -114,11 +115,58 @@
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <header>
         <h1 class="f1">
-          , chapter  Eloquent Javascripte
+          Minimum, chapter 3 Eloquent JavaScript
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links mid-gray">
-        
+        <h2 id="introduction-to-the-problem">Introduction to the Problem</h2>
+<p>I&rsquo;m showing a problem and a solution shown in Chapter 3 of <em>Eloquent JavaScript</em> by <em>Marijn Haverbeke</em>.  See Eloquent JavaScript, Chapter 3 <a href="https://eloquentjavascript.net/03_functions.html">here</a></p>
+<p>Below is the question.</p>
+<blockquote>
+The previous chapter introduced the standard function Math.min that returns its smallest argument. We can write a function like that 
+ourselves now. Define the function min that takes two arguments and returns their minimum.
+</blockquote>
+<h2 id="my-solution">My solution:</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">x</span>,<span style="color:#a6e22e">y</span>){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">x</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">y</span>){
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">y</span>
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">x</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">min</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>))
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">min</span>(<span style="color:#ae81ff">0</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">10</span>))
+</span></span></code></pre></div><h2 id="creating-a-function">Creating a function</h2>
+<ul>
+<li>A <strong>function</strong> is created with an expression that starts with the keyword <em>function (Eloquent JavaScript chapter 3)</em>.</li>
+<li>In this example, the function is named <em>min</em>.</li>
+<li>A function can take zero, one, or multiple <strong>parameters</strong> and has a <strong>body</strong>, that contains the statement to be executed when the function is called <em>(Eloquent JavaScript chapter 3)</em>.</li>
+<li>Here, the parameters are x and y, representing the two values we want to compare.</li>
+</ul>
+<h2 id="the-body-of-the-function">The body of the function</h2>
+<ul>
+<li>If statement:
+<ul>
+<li>The function uses an if statement, which allows a piece of code to run only when a specific condition is true. <em>(Eloquent JavaScript, Chapter 3)</em></li>
+</ul>
+</li>
+<li>The first if statement created has the <strong>Boolean expression</strong>:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#a6e22e">x</span> <span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">y</span>
+</span></span></code></pre></div><ul>
+<li>The <strong>&gt;</strong> operator means <em>greater than</em>, so the expression is only true if x is bigger then y.</li>
+<li>If the expression is true the function will execute the following statement. In this case it is <strong>return y</strong>. This will return y because it is the smaller of the two values.</li>
+<li>The function is followed by an <strong>else</strong> and the statement to execute <strong>return x</strong>. This means that if the previous Boolean expression is false and x will be the number that is returned because it is the smallest.</li>
+</ul>
+<h2 id="calling-the-function">Calling the function</h2>
+<ul>
+<li>We call the function by using:
+<code>js console.log(min(0, 10)) </code></li>
+<li><strong>console.log ()</strong> is a function that writes out its arguments to some text output device (eloquent JavaScript chapter 2).</li>
+<li>To call the function, we write its name followed by parentheses containing the values we want to pass as arguments.</li>
+<li>In this case, we are comparing the number 0 and 10 in the function min. It returns the smaller value, and console.log() then prints that result.</li>
+</ul>
+
       </div>
     </article>
   </div>
