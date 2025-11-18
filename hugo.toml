@@ -6,6 +6,7 @@ theme = 'ananke'
 [markup.goldmark.renderer]
   unsafe = true
 
+show_recent_posts = false
 
 [[menu.main]]
   identifier = "home"
