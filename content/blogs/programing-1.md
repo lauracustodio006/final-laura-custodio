@@ -5,6 +5,7 @@ omit_header_text: true
 summary: "Programming article 1."
 type: page
 tags: [JavaScript, problem]
+category: [substantive]
 ---
 ## Introduction to the Problem
  I'm showing a problem and a solution shown in Chapter 2 of *Eloquent JavaScript* by *Marijn Haverbeke*.  See Eloquent JavaScript, Chapter 2 [here](https://eloquentjavascript.net/02_program_structure.html#p-1PXG58nhBq)
@@ -34,6 +35,30 @@ while(num <= 100) {
   num++;
 }
 ```
+<button id="runFizzBuzz">Run FizzBuzz</button>
+
+<pre id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></pre>
+
+<script>
+document.getElementById("runFizzBuzz").addEventListener("click", () => {
+  const output = document.getElementById("output");
+  output.textContent = ""; 
+  let num = 1;
+  while(num <= 100) {
+    if (num % 3 === 0 && num % 5 === 0){
+      output.textContent += "FizzBuzz\n";
+    } else if (num % 3 === 0) { 
+      output.textContent += "Fizz\n"; 
+    } else if (num % 5 === 0) { 
+      output.textContent += "Buzz\n"; 
+    } else{
+      output.textContent += num + "\n";
+    }
+    num++;
+  }
+});
+</script>
+
 ## Bind the first value
 *	**Binding** defines a value to a name that can be used in an expression.*(Eloquent JavaScript chapter 2)*.
 * In this case we defined the variable num to the initial value 1, since the problem requires to print the numbers from 1 to 100.
@@ -77,3 +102,4 @@ console.log("FizzBuzz");
   ```
 - This means num = num + 1, num is increased by 1.
 - This will allow the loop to continue to the next number.
+

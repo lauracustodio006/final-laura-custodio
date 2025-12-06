@@ -1,39 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Final Website on My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Final Website on My New Hugo Site</description>
+    <title>blogs on My New Hugo Site</title>
+    <link>http://localhost:1313/blogs/</link>
+    <description>Recent content in blogs on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Does reality shape our view of humanity?</title>
-      <link>http://localhost:1313/articles/essay_2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/essay_2/</guid>
-      <description>Essay foundations 1</description>
-    </item>
-    <item>
-      <title>Enchancement made in my website</title>
-      <link>http://localhost:1313/articles/change_art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/change_art/</guid>
-      <description>what enchacement I did and why</description>
-    </item>
+    <atom:link href="http://localhost:1313/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FizzBuzz, chapter 2 Eloquent JavaScript</title>
       <link>http://localhost:1313/blogs/programing-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/programing-1/</guid>
       <description>Programming article 1.</description>
-    </item>
-    <item>
-      <title>How I used AI in my website</title>
-      <link>http://localhost:1313/articles/ai_art/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/ai_art/</guid>
-      <description>The three purposes I used AI in my website</description>
     </item>
     <item>
       <title>Lorem Ipsum</title>
@@ -62,13 +41,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blogs/blog-2/</guid>
       <description>AI essay for ENG 112</description>
-    </item>
-    <item>
-      <title>Why does human traffic thrive despite its cruelty?</title>
-      <link>http://localhost:1313/articles/essay_1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/essay_1/</guid>
-      <description>Essay for ENG 112</description>
     </item>
   </channel>
 </rss>

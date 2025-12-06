@@ -3,8 +3,10 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'ananke'
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 show_recent_posts = false
 
@@ -27,3 +29,12 @@ show_recent_posts = false
   name = "Resources"
   url = "/articles/"
   weight = 3 
+
+  [[menu.main]]
+  identifier = "blogs"
+  name = "Blogs"
+  url = "/blogs/"
+  weight = 4
+
+
+

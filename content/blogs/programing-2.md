@@ -5,6 +5,7 @@ omit_header_text: true
 summary: "Programming article 2."
 type: page
 tags: [JavaScript, problem]
+category: [substantive]
 ---
 ## Introduction to the Problem
 I'm showing a problem and a solution shown in Chapter 3 of *Eloquent JavaScript* by *Marijn Haverbeke*.  See Eloquent JavaScript, Chapter 3 [here](https://eloquentjavascript.net/03_functions.html)
@@ -27,6 +28,27 @@ function min(x,y){
 console.log(min(0, 10))
 console.log(min(0, -10))
 ```
+<button id="runMin">Run Min</button>
+
+<pre id="outputMin" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></pre>
+
+<script>
+document.getElementById("runMin").addEventListener("click", () => {
+  const output = document.getElementById("outputMin");
+  output.textContent = ""; 
+  function min(x,y){
+    if (x > y){
+        return y;
+    } else {
+        return x;
+    }
+  }
+  output.textContent += min(0, 10) + "\n";
+  output.textContent += min(0, -10) + "\n";
+});
+</script>
+
+
 ## Creating a function
 * A **function** is created with an expression that starts with the keyword *function (Eloquent JavaScript chapter 3)*.
 * In this example, the function is named *min*.
