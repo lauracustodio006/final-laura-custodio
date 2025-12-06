@@ -4,7 +4,7 @@ description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, co
 omit_header_text: true
 summary: "lorem ipsum"
 tags: [lorem ipsum]
-featured_image: '/image/main_page.png'
+featured_image: '/image/logo.png'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar est et posuere vestibulum. Nunc nulla quam, rutrum bibendum quam et, molestie fermentum eros. Etiam porttitor nibh tortor. Proin tincidunt neque nec sem scelerisque, nec bibendum lorem bibendum. Sed ut aliquam dui. Mauris in vehicula libero. Aenean nec facilisis libero. Sed nibh nunc, finibus dignissim efficitur at, scelerisque eget massa. Donec tortor est, blandit ac malesuada sed, aliquet ac ex. Suspendisse posuere efficitur est, ac efficitur velit eleifend id. Vivamus vitae tortor lobortis turpis facilisis faucibus ac vitae sem.

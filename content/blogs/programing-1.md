@@ -6,6 +6,7 @@ summary: "Programming article 1."
 type: page
 tags: [JavaScript, problem]
 category: [substantive]
+featured_image: '/image/logo.png'
 ---
 ## Introduction to the Problem
  I'm showing a problem and a solution shown in Chapter 2 of *Eloquent JavaScript* by *Marijn Haverbeke*.  See Eloquent JavaScript, Chapter 2 [here](https://eloquentjavascript.net/02_program_structure.html#p-1PXG58nhBq)
