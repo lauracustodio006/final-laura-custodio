@@ -35,29 +35,31 @@ while(num <= 100) {
   num++;
 }
 ```
-<button id="runFizzBuzz">Run FizzBuzz</button>
+<button id="FizzBuzz">Run FizzBuzz</button>
 
-<pre id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></pre>
+<div id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
 
 <script>
-document.getElementById("runFizzBuzz").addEventListener("click", () => {
-  const output = document.getElementById("output");
-  output.textContent = ""; 
-  let num = 1;
-  while(num <= 100) {
-    if (num % 3 === 0 && num % 5 === 0){
-      output.textContent += "FizzBuzz\n";
+document.getElementById("FizzBuzz").addEventListener("click", () => { 
+  const output = document.getElementById("output"); 
+  output.innerHTML = ""; 
+
+  let num = 1;  
+  while (num <= 100) {
+    if (num % 3 === 0 && num % 5 === 0) {
+      output.innerHTML += "FizzBuzz<br>";
     } else if (num % 3 === 0) { 
-      output.textContent += "Fizz\n"; 
+      output.innerHTML += "Fizz<br>"; 
     } else if (num % 5 === 0) { 
-      output.textContent += "Buzz\n"; 
-    } else{
-      output.textContent += num + "\n";
+      output.innerHTML += "Buzz<br>"; 
+    } else {
+      output.innerHTML += num + "<br>";
     }
     num++;
   }
 });
 </script>
+
 
 ## Bind the first value
 *	**Binding** defines a value to a name that can be used in an expression.*(Eloquent JavaScript chapter 2)*.

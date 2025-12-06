@@ -28,26 +28,30 @@ function min(x,y){
 console.log(min(0, 10))
 console.log(min(0, -10))
 ```
-<button id="runMin">Run Min</button>
+<button id="FizzBuzz">Run FizzBuzz</button>
 
-<pre id="outputMin" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></pre>
+<div id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
 
 <script>
-document.getElementById("runMin").addEventListener("click", () => {
-  const output = document.getElementById("outputMin");
-  output.textContent = ""; 
-  function min(x,y){
-    if (x > y){
-        return y;
+document.getElementById("FizzBuzz").addEventListener("click", () => { 
+  const output = document.getElementById("output"); 
+  output.innerHTML = ""; 
+
+  let num = 1;  
+  while (num <= 100) {
+    if (num % 3 === 0 && num % 5 === 0) {
+      output.innerHTML += "FizzBuzz<br>";
+    } else if (num % 3 === 0) { 
+      output.innerHTML += "Fizz<br>"; 
+    } else if (num % 5 === 0) { 
+      output.innerHTML += "Buzz<br>"; 
     } else {
-        return x;
+      output.innerHTML += num + "<br>";
     }
+    num++;
   }
-  output.textContent += min(0, 10) + "\n";
-  output.textContent += min(0, -10) + "\n";
 });
 </script>
-
 
 ## Creating a function
 * A **function** is created with an expression that starts with the keyword *function (Eloquent JavaScript chapter 3)*.
