@@ -147,22 +147,23 @@ Write a program that uses console.log to print all the numbers from 1 to 100, wi
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">num</span><span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p><button id="runFizzBuzz">Run FizzBuzz</button></p>
-<pre id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></pre>
+</span></span></code></pre></div><p><button id="FizzBuzz">Run FizzBuzz</button></p>
+<div id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
 <script>
-document.getElementById("runFizzBuzz").addEventListener("click", () => {
-  const output = document.getElementById("output");
-  output.textContent = ""; 
-  let num = 1;
-  while(num <= 100) {
-    if (num % 3 === 0 && num % 5 === 0){
-      output.textContent += "FizzBuzz\n";
+document.getElementById("FizzBuzz").addEventListener("click", () => { 
+  const output = document.getElementById("output"); 
+  output.innerHTML = ""; 
+
+  let num = 1;  
+  while (num <= 100) {
+    if (num % 3 === 0 && num % 5 === 0) {
+      output.innerHTML += "FizzBuzz<br>";
     } else if (num % 3 === 0) { 
-      output.textContent += "Fizz\n"; 
+      output.innerHTML += "Fizz<br>"; 
     } else if (num % 5 === 0) { 
-      output.textContent += "Buzz\n"; 
-    } else{
-      output.textContent += num + "\n";
+      output.innerHTML += "Buzz<br>"; 
+    } else {
+      output.innerHTML += num + "<br>";
     }
     num++;
   }
