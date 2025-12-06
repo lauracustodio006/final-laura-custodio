@@ -29,29 +29,22 @@ function min(x,y){
 console.log(min(0, 10))
 console.log(min(0, -10))
 ```
-<button id="FizzBuzz">Run FizzBuzz</button>
+<button id="Min">Run FizzBuzz</button>
 
-<div id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
-
-<script>
-document.getElementById("FizzBuzz").addEventListener("click", () => { 
-  const output = document.getElementById("output"); 
+<div id="output2" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
+<script> 
+document.getElementById("runMin").addEventListener("click", () => { 
+  const output = document.getElementById("output2"); 
   output.innerHTML = ""; 
-
-  let num = 1;  
-  while (num <= 100) {
-    if (num % 3 === 0 && num % 5 === 0) {
-      output.innerHTML += "FizzBuzz<br>";
-    } else if (num % 3 === 0) { 
-      output.innerHTML += "Fizz<br>"; 
-    } else if (num % 5 === 0) { 
-      output.innerHTML += "Buzz<br>"; 
-    } else {
-      output.innerHTML += num + "<br>";
-    }
-    num++;
-  }
-});
+  function min(x,y){ 
+    if (x > y){ 
+      return y; 
+    } else { 
+      return x; 
+    } } 
+  output.innerHTML += min(0, 10) + "<br>"; 
+  output.innerHTML += min(0, -10) + "<br>"; 
+}); 
 </script>
 
 ## Creating a function
