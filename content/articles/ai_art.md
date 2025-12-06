@@ -4,6 +4,7 @@ description: ""
 omit_header_text: true
 summary: "The three purposes I used AI in my website"
 tags: [AI]
+featured_image: '/image/main_page.png'
 ---
 
 I used AI in my website for three main purposes:

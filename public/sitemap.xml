@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/articles/ai_art/</loc>
-  </url><url>
-    <loc>http://localhost:1313/articles/change_art/</loc>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
@@ -18,11 +14,15 @@
   </url><url>
     <loc>http://localhost:1313/articles/essay_2/</loc>
   </url><url>
+    <loc>http://localhost:1313/articles/change_art/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/ethic/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
     <loc>http://localhost:1313/blogs/programing-1/</loc>
+  </url><url>
+    <loc>http://localhost:1313/articles/ai_art/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/human-nature/</loc>
   </url><url>

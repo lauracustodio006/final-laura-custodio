@@ -6,6 +6,7 @@ omit_header_text: true
 summary: "AI essay for ENG 112 "
 tags: [AI, ethic]
 category: [substantive]
+featured_image: '/image/main_page.png'
 ---
 
 In today's society, technology plays a massive role in our lives, and this brings important questions about how much we should let artificial intelligence, or AI, make decisions for us, both in society and in our personal lives. AI is everywhere now, from personal assistants like Siri and Alexa to systems that assist doctors in diagnosing patients. While AI can make daily tasks more efficient and convenient, it raises significant concerns for individual lives and society. During this Fourth Industrial Revolution, or Industry 4.0, businesses and industries increasingly rely on automation and intelligent machinery to optimize production and reduce human involvement (Bhatti et al.). This transformation has improved efficiency, but also disrupted traditional job structures, and introduced ethical concerns. In this essay, I will explore the impact of AI on businesses, highlighting its benefits and risks, particularly regarding job loss and biased decision-making. As companies adopt AI tools to enhance productivity, improve customer services, and analyze data, numerous jobs are at risk of automation. Although artificial intelligence increases efficiency across various industries, its rapid and unregulated development creates serious ethical challenges, including job displacement, systemic bias, and accountability gaps that must be addressed through policy reform.
