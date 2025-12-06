@@ -33,7 +33,7 @@ console.log(min(0, -10))
 
 <div id="output2" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
 <script> 
-document.getElementById("runMin").addEventListener("click", () => { 
+document.getElementById("Min").addEventListener("click", () => { 
   const output = document.getElementById("output2"); 
   output.innerHTML = ""; 
   function min(x,y){ 
