@@ -7,7 +7,7 @@ cascade:
   featured_image: '/image/about_me.jpeg'
 ---
 <div>
-<img src="/image/ft-3.jpg"  style="float: left; width: 200px; margin-right: 40px; margin-bottom: 10px; border-radius: 10px;">
+<img src="/image/ft-3.jpg"  style="float: left; width: 200px; margin-right: 30px; margin-bottom: 10px; margin-top: 50px; border-radius: 10px;">
 </div>
 
 ## Who am I

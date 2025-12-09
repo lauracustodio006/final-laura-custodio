@@ -142,27 +142,21 @@ ourselves now. Define the function min that takes two arguments and returns thei
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">min</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">10</span>))
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">min</span>(<span style="color:#ae81ff">0</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">10</span>))
-</span></span></code></pre></div><p><button id="FizzBuzz">Run FizzBuzz</button></p>
-<div id="output" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
-<script>
-document.getElementById("FizzBuzz").addEventListener("click", () => { 
-  const output = document.getElementById("output"); 
+</span></span></code></pre></div><p><button id="Min">Run FizzBuzz</button></p>
+<div id="output2" style="background:#f4f4f4; color:black; padding:1rem; border-radius:5px; max-height:300px; overflow:auto;"></div>
+<script> 
+document.getElementById("Min").addEventListener("click", () => { 
+  const output = document.getElementById("output2"); 
   output.innerHTML = ""; 
-
-  let num = 1;  
-  while (num <= 100) {
-    if (num % 3 === 0 && num % 5 === 0) {
-      output.innerHTML += "FizzBuzz<br>";
-    } else if (num % 3 === 0) { 
-      output.innerHTML += "Fizz<br>"; 
-    } else if (num % 5 === 0) { 
-      output.innerHTML += "Buzz<br>"; 
-    } else {
-      output.innerHTML += num + "<br>";
-    }
-    num++;
-  }
-});
+  function min(x,y){ 
+    if (x > y){ 
+      return y; 
+    } else { 
+      return x; 
+    } } 
+  output.innerHTML += min(0, 10) + "<br>"; 
+  output.innerHTML += min(0, -10) + "<br>"; 
+}); 
 </script>
 <h2 id="creating-a-function">Creating a function</h2>
 <ul>
